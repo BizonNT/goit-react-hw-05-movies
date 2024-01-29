@@ -1,0 +1,26 @@
+.title {
+  margin: 20px 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.list {
+  margin: 0 20px;
+}
+
+.item {
+  padding: 5px 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.link:hover,
+.link:focus {
+  color: #b70707;
+  font-weight: 700;
+}

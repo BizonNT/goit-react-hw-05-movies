@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  max-width: calc(100vw - 100px);
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poster {
+  max-height: 350px;
+}
+
+.title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.text {
+  margin: 0;
+  font-size: 18px;
+}
+
+.note {
+  margin: 30px 50px;
+  font-size: 20px;
+  font-weight: 500;
+}

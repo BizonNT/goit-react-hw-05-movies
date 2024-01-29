@@ -1,0 +1,28 @@
+.title {
+  margin: 15px 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.list {
+  margin: 0;
+  padding-left: 50px;
+}
+
+.item {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.link:hover,
+.link:focus {
+  color: #303f9f;
+  font-weight: 700;
+}
+.link:global(.active) {
+  color: #b70707;
+}

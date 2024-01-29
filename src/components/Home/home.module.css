@@ -1,0 +1,9 @@
+.container {
+  margin: 20px 50px;
+}
+
+.title {
+  margin: 20px 0;
+  font-size: 32px;
+  font-weight: 700;
+}
